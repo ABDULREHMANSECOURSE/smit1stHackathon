@@ -36,18 +36,19 @@ nav button{
 .h-2{
     background-color: #7C4EE4;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 150px;
+    justify-content: space-around;
+    padding: 80px;
 }
 .h-2-text{
     color: white;
     flex: 1;
+    width: 417px;
     flex-wrap: wrap;
 }
 .h-2-img{
-    flex-wrap: wrap;
-    width: 608px;
+    word-wrap: wrap;
+    width: 437px;
     flex: 1;
 }
 .h-2-text h5{
@@ -78,19 +79,17 @@ nav button{
     font-size: 16px;
 }
 main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 100px;
+    background-color: #FAFAFA;
+    padding: 10%;
 }
 .m-1{
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+    justify-content: space-between;
 }
 
 .m-1 img{
-    width: 1232px;
+    height: 608px;
 }
 
 .m-1-text{
@@ -103,6 +102,7 @@ main{
     display: flex;
     flex-direction: column;
     border-radius: 8px;
+    height: 55%;
 }
 
 .m-1-text h1{
@@ -141,8 +141,7 @@ main{
 .m-2{
     display: flex;
     justify-content: space-between;
-    gap: 50px;
-    width: 70%;
+    margin-top: 100px;
 }
 
 .m-2 h1{
@@ -154,6 +153,7 @@ main{
 .m-2 button{
     padding: 16px 48px;
     border-radius: 8px;
+    min-width: 150px;
     border: none;
     color: white;
     background-color: #7C4EE4;
@@ -161,8 +161,8 @@ main{
 .m-3{
     display: flex;
     justify-content: space-around;
-    width: 90%;
     margin-top: 100px;
+    gap: 50px;
 }
 
 
@@ -202,3 +202,192 @@ main{
 .m-3 img{
     width: 712px;
 }
+
+.m-4-main{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.m-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    width: 70%;
+    margin-top: 100px;
+}
+
+.m-4-text-h5-h6{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+.m-4-text-h5-h6 h5{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    color: #333333;
+}
+.m-4-text-h5-h6 h6{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #999999;
+}
+.m-4-text h1{
+    width: 408px;
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 24px;
+}
+.m-4-text p{
+    width: 376px;
+    font-weight: 400;
+    line-height: 150%;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.m-4-text a{
+    margin-top: 20px;
+    font-size: 18px;
+    font-style: bold;
+    color: #7C4EE4;
+    line-height: 150%;
+    font-weight: 700;
+}
+
+.m-5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.m-5 h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+}
+.m-5 button{
+    padding: 16px 48px;
+    border-radius: 8px;
+    min-width: 150px;
+    border: none;
+    color: white;
+    background-color: #7C4EE4;
+}
+
+
+.m-6-main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.m-6{
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.m-6-text-h5-h6{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+.m-6-text-h5-h6 h5{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    color: #333333;
+}
+.m-6-text-h5-h6 h6{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #999999;
+}
+.m-6-text h1{
+    width: 408px;
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 24px;
+}
+.m-6-text p{
+    width: 376px;
+    font-weight: 400;
+    line-height: 150%;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.m-6-text a{
+    margin-top: 20px;
+    font-size: 18px;
+    font-style: bold;
+    color: #7C4EE4;
+    line-height: 150%;
+    font-weight: 700;
+}
+
+
+.f-1{
+    background-color: #7C4EE4;
+    place-items: center;
+    color: white;
+    padding: 100px;
+}
+
+.f-1 h1{
+    width: 768px;
+    font-size: 52px;
+    line-height: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.f-1 p{
+    width: 555px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: center;
+    color: #BBBBBB;
+    margin: 20px 0 0 0;
+}
+
+.f-1 input{
+    margin-top: 40px;
+    padding: 16px 20px;
+    width: 450px;
+    border-radius: 8px;
+    border: none;
+}
+.f-1 button{
+    padding: 16px 48px;
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: #70050500;
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
