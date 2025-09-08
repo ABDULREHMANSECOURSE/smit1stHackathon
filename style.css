@@ -418,7 +418,9 @@ main{
 }
 
 .f-last{
-    width: 366px;
+    border-top: 1px solid #7C4EE4;
+    width: 80%;
+    padding-top: 50px;
     text-align: center;
     color: #150E06;
     font-size: 16px;
