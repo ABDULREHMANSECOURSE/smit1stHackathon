@@ -30,6 +30,9 @@ nav button{
 .logo{
     width: 150px;
 }
+.menuIcon{
+    display: none;
+}
 .h-2{
     background-color: #7C4EE4;
     display: flex;
@@ -45,7 +48,6 @@ nav button{
 .h-2-img{
     flex-wrap: wrap;
     width: 608px;
-    padding-left: 50px;
     flex: 1;
 }
 .h-2-text h5{
@@ -75,30 +77,41 @@ nav button{
     font-weight: 500;
     font-size: 16px;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+}
 .m-1{
     position: relative;
+    margin-bottom: 100px;
 }
+
 .m-1 img{
-    width: 1238px;
+    width: 1232px;
 }
+
 .m-1-text{
     background-color: white;
     padding: 30px;
     position: absolute;
-    top: 50%;
-    left: 28.2%;
+    top: 60%;
+    left: 30%;
     bottom: 0;
     display: flex;
     flex-direction: column;
     border-radius: 8px;
 }
-.m-1-text button{
-    border: 2px solid #7C4EE4;
-    padding: 10px 20px;
-    border-radius: 8px;
-    width: 120px;
-    background-color: white;
+
+.m-1-text h1{
+    width: 784px;
+    line-height: 45px;
+    font-weight: 700;
+    letter-spacing: -1px;
 }
+
 .m-1-text p{
     width: 784px;
     size: 16px;
@@ -107,3 +120,85 @@ nav button{
     margin-top: 20px;
 }
 
+.m-1-text button{
+    border: 2px solid #7C4EE4;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 120px;
+    background-color: white;
+}
+.m-1-text-h5-h6{
+    display: flex;
+    align-items: center;
+}
+.m-1-text-h5-h6 h6{
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.m-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: 70%;
+}
+
+.m-2 h1{
+    min-width: 358px;
+    line-height: 50px;
+}
+
+
+.m-2 button{
+    padding: 16px 48px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #7C4EE4;
+}
+.m-3{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-top: 100px;
+}
+
+
+.m-3-text h1{
+    width: 464px;
+    line-height: 45px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.m-3-text p{
+    width: 464px;
+    size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 20px;
+}
+
+.m-3-text button{
+    border: 2px solid #7C4EE4;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 120px;
+    background-color: white;
+}
+.m-3-text-h5-h6{
+    display: flex;
+    align-items: center;
+}
+.m-3-text-h5-h6 h6{
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.m-3 img{
+    width: 712px;
+}
