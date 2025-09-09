@@ -156,4 +156,35 @@
         font-size: 12px;
         width: 300px;
     }
+
+    .logo{
+        width: 112px;
+    }
+    .menuIcon{
+        width: 35px;
+    }
+
+.h-2-text h1{
+    max-width: 289px;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0;
+}
+
+.h-2-text p{
+    width: 289px;
+    font-size: 11px;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.h-2-text button{
+    font-size: 11px;
+    line-height: 150%;
+    font-weight: 700;
+}
+
+.h-2-img{
+    height: 330px;
+}
 }
