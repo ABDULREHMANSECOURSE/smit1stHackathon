@@ -47,9 +47,16 @@
     }
     .m-4-main{
         flex-direction: column;
-        gap: 50px;
+        gap: 20px;
     }
     .m-4-box{
+        width: 100%;
+    }
+    .m-6-main{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .m-6-box{
         width: 100%;
     }
 }
