@@ -1,0 +1,45 @@
+@media (max-width: 800px) {
+    .menuIcon {
+        display: block;
+    }
+    .nav-links {
+        display: none;
+    }
+}
+
+@media (max-width: 1400px) {
+    .h-2 {
+        flex-direction: column;
+        gap: 90px;
+    }
+    .m-1{
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+    }
+    .m-1-text{
+        position: static;
+        height: auto;
+        width: 100%;
+        padding: 20px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 1050px) {
+    main{
+        padding: 5%;
+    }
+    .m-1-text h1{
+        width: 100%;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .m-1-text p{
+        width: 100%;
+        font-size: 14px;
+    }
+    .m-1-text button{
+        margin-top: 40px;
+        font-size: 14px;
+    }
+}
