@@ -12,6 +12,9 @@
         flex-direction: column;
         gap: 90px;
     }
+    .m-3{
+        display: none;
+    }
     .m-1{
         background-color: white;
         padding: 20px;
@@ -41,5 +44,12 @@
     .m-1-text button{
         margin-top: 40px;
         font-size: 14px;
+    }
+    .m-4-main{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .m-4-box{
+        width: 100%;
     }
 }

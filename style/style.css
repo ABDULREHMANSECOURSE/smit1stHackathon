@@ -9,7 +9,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 80px;
+    padding: 16px 10%;
 }
 nav div{
     display: flex;
@@ -38,37 +38,42 @@ nav button{
     background-color: #7C4EE4;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 80px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 100px 10%;
+    gap: 10%;
 }
 .h-2-text{
     color: white;
     flex: 1;
-    width: 580px;
+    width: 100%;
 }
 .h-2-img{
-    width: 608px;
     flex: 1;
+}
+.h-2-img img{
+    width: 100%;
+    height: auto;
 }
 .h-2-text h5{
     font-weight: 500;
     font-size: 16px;
 }
 .h-2-text h1{
-    padding-top: 40px;
-    width: 580px;
+    padding-top: 8%;
+    max-width: 580px;
     font-weight: 700;
     font-size: 64px;
 }
 .h-2-text p{
     line-height: 150%;
     font-weight: 400;
-    padding-top: 40px;
+    max-width: 416px;
+    padding-top: 6%;
     font-size: 16px;
-    width: 416px;
 }
 .h-2-text button{
-    margin-top: 80px;
+    margin-top: 10%;
     padding: 16px 48px;
     background-color: white;
     color: black;
@@ -159,11 +164,15 @@ main{
 }
 .m-3{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 100px;
-    gap: 50px;
+    gap: 10%;
+    width: 90%;
 }
 
+.m-3-text{
+    width: 100%;
+}
 
 .m-3-text h1{
     width: 464px;
@@ -199,22 +208,35 @@ main{
 }
 
 .m-3 img{
-    width: 712px;
+    width: 100%;
 }
 
 .m-4-main{
     display: flex;
-    justify-content: center;
-    width: 90%;
+    width: 100%;
+    gap: 1%;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.m-4{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 50px;
-    width: 70%;
+.m-4-box{
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    flex: 1;
+}
+
+.m-4-box img{
+    width: 100%;
+    border-radius: 8px;
+}
+.m-4-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
 }
 
 .m-4-text-h5-h6{
@@ -236,13 +258,13 @@ main{
     color: #999999;
 }
 .m-4-text h1{
-    width: 408px;
+    max-width: 100%;
     font-weight: 700;
     line-height: 32px;
     font-size: 24px;
 }
 .m-4-text p{
-    width: 376px;
+    max-width: 100%;
     font-weight: 400;
     line-height: 150%;
     font-size: 16px;
