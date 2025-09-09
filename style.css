@@ -424,11 +424,6 @@ main{
     width: 158px;
 }
 
-.f-2-sec{
-    place-content: center;
-    gap: auto;
-}
-
 .f-2 a{
     color: black;
     text-decoration: none;
@@ -437,8 +432,8 @@ main{
 
 .f-2-links{
     display: flex;
-    gap: 40px;
-    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .f-2 h1{
@@ -455,7 +450,7 @@ main{
 
 .f-last{
     border-top: 1px solid #7C4EE4;
-    width: 80%;
+    width: 100%;
     padding-top: 50px;
     text-align: center;
     color: #150E06;

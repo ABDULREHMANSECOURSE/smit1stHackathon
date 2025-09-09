@@ -111,4 +111,49 @@
     .m-2 button , .m-5 button{
         font-size: 10px;
     }
+
+    .f-1 h1{
+        width: 285px;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing:0.14px;
+    }
+
+    .f-1 p{
+        font-size: 12px;
+        max-width: 282px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+
+    .f-2 img{
+        width: 112px;
+    }
+
+    .f-2 {
+        padding-top: 50px;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .f-2-sec{
+        display: flex;
+        flex-direction: row;
+        width:300px;
+    }
+
+
+    .f-2-sec a{
+        font-size: 12px;
+        margin: auto;
+    }
+
+    .f-2-links{
+        width: 300px;
+    }
+
+    .f-last{
+        font-size: 12px;
+        width: 300px;
+    }
 }
