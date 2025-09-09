@@ -44,12 +44,10 @@ nav button{
 .h-2-text{
     color: white;
     flex: 1;
-    width: 417px;
-    flex-wrap: wrap;
+    width: 580px;
 }
 .h-2-img{
-    word-wrap: wrap;
-    width: 437px;
+    width: 608px;
     flex: 1;
 }
 .h-2-text h5{
@@ -86,11 +84,12 @@ main{
 .m-1{
     position: relative;
     margin-bottom: 150px;
+    min-width: 90%;
     justify-content: space-between;
 }
 
 .m-1 img{
-    height: 608px;
+    min-width: 100%;
 }
 
 .m-1-text{
@@ -98,10 +97,7 @@ main{
     padding: 30px;
     position: absolute;
     top: 60%;
-    left: 30%;
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
+    right: 0;
     border-radius: 8px;
     height: 55%;
 }
@@ -143,6 +139,7 @@ main{
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
+    min-width: 90%;
 }
 
 .m-2 h1{

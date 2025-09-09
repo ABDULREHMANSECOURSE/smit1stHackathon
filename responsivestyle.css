@@ -1,0 +1,15 @@
+@media (max-width: 800px) {
+    .menuIcon {
+        display: block;
+    }
+    .nav-links {
+        display: none;
+    }
+}
+
+@media (max-width: 1400px) {
+    .h-2 {
+        flex-direction: column;
+        gap: 90px;
+    }
+}
