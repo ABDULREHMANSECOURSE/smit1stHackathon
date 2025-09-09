@@ -60,3 +60,55 @@
         width: 100%;
     }
 }
+
+@media (max-width: 855px) {
+
+    .f-1{
+        padding: 50px 10px;
+        gap: 50px;
+    }
+
+.f-1 h1{
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.14px;
+}
+
+ .f-1-input-button{
+    display: flex;
+    flex-direction: row;
+}
+.f-1 button{
+    min-width: 110px;
+    margin-top: auto;
+    font-size: 10px;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: #70050500;
+    color: white;
+    margin-left: 20px;
+}
+.f-1 input{
+    font-size: 10px;
+    max-width: 211px;
+}
+}
+
+@media (max-width: 600px) {
+    .m-2 , .m-5{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .m-2 h1 , .m-5 h1{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .m-2 button , .m-5 button{
+        font-size: 10px;
+    }
+}

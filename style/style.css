@@ -145,11 +145,11 @@ main{
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
-    min-width: 90%;
+    min-width: 100%;
+    gap: 2px;
 }
 
 .m-2 h1{
-    min-width: 358px;
     line-height: 50px;
 }
 
@@ -157,7 +157,6 @@ main{
 .m-2 button{
     padding: 16px 48px;
     border-radius: 8px;
-    min-width: 150px;
     border: none;
     color: white;
     background-color: #7C4EE4;
@@ -283,22 +282,19 @@ main{
 .m-5{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-top: 100px;
-    justify-content: space-between;
-    width: 100%;
+    min-width: 100%;
+    gap: 2px;
 }
+
 .m-5 h1{
-    font-weight: 700;
-    min-width: 240px;
-    max-width: 100%;
-    line-height: 35.9px;
+    line-height: 50px;
 }
+
+
 .m-5 button{
-    padding: 16px 0px;
+    padding: 16px 48px;
     border-radius: 8px;
-    min-width: 120px;
-    max-width: 100%;
     border: none;
     color: white;
     background-color: #7C4EE4;
@@ -382,7 +378,7 @@ main{
 }
 
 .f-1 h1{
-    width: 768px;
+    max-width: 768px;
     font-size: 52px;
     line-height: 48px;
     font-weight: 700;
@@ -390,7 +386,7 @@ main{
 }
 
 .f-1 p{
-    width: 555px;
+    max-width: 555px;
     font-size: 16px;
     line-height: 28px;
     font-weight: 400;
@@ -430,7 +426,7 @@ main{
 
 .f-2-sec{
     place-content: center;
-    gap: 40px;
+    gap: auto;
 }
 
 .f-2 a{
